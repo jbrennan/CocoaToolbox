@@ -1,5 +1,5 @@
 //
-//  CocoaToolbox.h
+//  NSArray+JBTools.h
 //  CocoaToolbox
 //
 //  Created by Jason Brennan on May-04-2013.
@@ -8,5 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "NSString+JBTools.h"
-#import "NSArray+JBTools.h"
+@interface NSArray (JBTools)
+
+- (id)zerothObject;
+
+@end
