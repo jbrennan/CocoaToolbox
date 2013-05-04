@@ -11,6 +11,7 @@
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
 		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
+		CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */,
 				CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,9 +126,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD466F901735904E00BAA1CF /* Build configuration list for PBXNativeTarget "CocoaToolbox" */;
 			buildPhases = (
+				CD466F781735904E00BAA1CF /* Headers */,
 				CD466F761735904E00BAA1CF /* Sources */,
 				CD466F771735904E00BAA1CF /* Frameworks */,
-				CD466F781735904E00BAA1CF /* Headers */,
 				CD466F791735904E00BAA1CF /* Resources */,
 			);
 			buildRules = (
@@ -308,6 +310,7 @@
 				CD466F921735904E00BAA1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
