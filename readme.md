@@ -1,0 +1,1 @@
+Yep, another framework full of Cocoa helpers. I was too lazy to use an existing one, so this will house ones I use. For OS X right now.
