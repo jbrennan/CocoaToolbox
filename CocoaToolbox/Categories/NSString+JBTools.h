@@ -1,5 +1,5 @@
 //
-//  CocoaToolbox.h
+//  NSString+JBTools.h
 //  CocoaToolbox
 //
 //  Created by Jason Brennan on May-04-2013.
@@ -8,4 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "NSString+JBTools.h"
+@interface NSString (JBTools)
+- (BOOL)hasSubstring:(NSString *)substring;
+@end

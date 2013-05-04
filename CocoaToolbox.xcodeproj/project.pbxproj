@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
-		CD466F8D1735904E00BAA1CF /* CocoaToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */; };
+		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		CD466F8A1735904E00BAA1CF /* CocoaToolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaToolbox-Prefix.pch"; sourceTree = "<group>"; };
 		CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaToolbox.h; sourceTree = "<group>"; };
 		CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaToolbox.m; sourceTree = "<group>"; };
+		CD466F941735909200BAA1CF /* NSString+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JBTools.h"; sourceTree = "<group>"; };
+		CD466F951735909200BAA1CF /* NSString+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JBTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		CD466F841735904E00BAA1CF /* CocoaToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				CD466F931735906000BAA1CF /* Categories */,
 				CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */,
 				CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */,
 				CD466F851735904E00BAA1CF /* Supporting Files */,
@@ -93,6 +97,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CD466F931735906000BAA1CF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CD466F941735909200BAA1CF /* NSString+JBTools.h */,
+				CD466F951735909200BAA1CF /* NSString+JBTools.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -100,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD466F8D1735904E00BAA1CF /* CocoaToolbox.m in Sources */,
+				CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +266,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaToolbox/CocoaToolbox-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "CocoaToolbox/CocoaToolbox-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -267,6 +282,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaToolbox/CocoaToolbox-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "CocoaToolbox/CocoaToolbox-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;

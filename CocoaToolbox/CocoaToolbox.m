@@ -8,6 +8,4 @@
 
 #import "CocoaToolbox.h"
 
-@implementation CocoaToolbox
 
-@end
