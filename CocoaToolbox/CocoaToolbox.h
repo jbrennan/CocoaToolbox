@@ -9,3 +9,4 @@
 #import <Foundation/Foundation.h>
 
 #import "NSString+JBTools.h"
+#import "NSError+Logging.h"

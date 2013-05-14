@@ -11,6 +11,8 @@
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
 		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
+		CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaToolbox.m; sourceTree = "<group>"; };
 		CD466F941735909200BAA1CF /* NSString+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JBTools.h"; sourceTree = "<group>"; };
 		CD466F951735909200BAA1CF /* NSString+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JBTools.m"; sourceTree = "<group>"; };
+		CDD2129F17424DEA00F43BBE /* NSError+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Logging.h"; sourceTree = "<group>"; };
+		CDD212A017424DEA00F43BBE /* NSError+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				CD466F941735909200BAA1CF /* NSString+JBTools.h */,
 				CD466F951735909200BAA1CF /* NSString+JBTools.m */,
+				CDD2129F17424DEA00F43BBE /* NSError+Logging.h */,
+				CDD212A017424DEA00F43BBE /* NSError+Logging.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */,
+				CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */,
+				CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				CD466F921735904E00BAA1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
