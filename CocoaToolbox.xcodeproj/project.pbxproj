@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */; };
+		CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */; };
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
 		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Hierarchy.h"; sourceTree = "<group>"; };
+		CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Hierarchy.m"; sourceTree = "<group>"; };
 		CD466F7B1735904E00BAA1CF /* CocoaToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD466F7E1735904E00BAA1CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD466F811735904E00BAA1CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -109,6 +113,8 @@
 				CD466F951735909200BAA1CF /* NSString+JBTools.m */,
 				CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */,
 				CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */,
+				CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */,
+				CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 				CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */,
 				CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */,
 				CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */,
+				CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +198,7 @@
 			files = (
 				CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */,
 				CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */,
+				CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
