@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD17102F1791F65D004C7C49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD17102E1791F65D004C7C49 /* Foundation.framework */; };
+		CD17103A1791F669004C7C49 /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
+		CD17103B1791F66B004C7C49 /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
+		CD17103C1791F692004C7C49 /* NSString+JBTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; };
+		CD17103D1791F696004C7C49 /* NSError+Logging.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; };
+		CD17103E1791F6C2004C7C49 /* CocoaToolbox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */; };
+		CD17103F1791F6C7004C7C49 /* CocoaToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */; };
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
 		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +22,25 @@
 		CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD17102B1791F65D004C7C49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				CD17103E1791F6C2004C7C49 /* CocoaToolbox.h in CopyFiles */,
+				CD17103C1791F692004C7C49 /* NSString+JBTools.h in CopyFiles */,
+				CD17103D1791F696004C7C49 /* NSError+Logging.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CD17102D1791F65D004C7C49 /* libCocoaTouchToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaTouchToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD17102E1791F65D004C7C49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD1710321791F65D004C7C49 /* CocoaTouchToolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaTouchToolbox-Prefix.pch"; sourceTree = "<group>"; };
 		CD466F7B1735904E00BAA1CF /* CocoaToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD466F7E1735904E00BAA1CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD466F811735904E00BAA1CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -33,6 +58,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CD17102A1791F65D004C7C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD17102F1791F65D004C7C49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD466F771735904E00BAA1CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +77,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1710301791F65D004C7C49 /* CocoaTouchToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				CD1710311791F65D004C7C49 /* Supporting Files */,
+			);
+			path = CocoaTouchToolbox;
+			sourceTree = "<group>";
+		};
+		CD1710311791F65D004C7C49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1710321791F65D004C7C49 /* CocoaTouchToolbox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		CD466F711735904E00BAA1CF = {
 			isa = PBXGroup;
 			children = (
 				CD466F841735904E00BAA1CF /* CocoaToolbox */,
+				CD1710301791F65D004C7C49 /* CocoaTouchToolbox */,
 				CD466F7D1735904E00BAA1CF /* Frameworks */,
 				CD466F7C1735904E00BAA1CF /* Products */,
 			);
@@ -57,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CD466F7B1735904E00BAA1CF /* CocoaToolbox.framework */,
+				CD17102D1791F65D004C7C49 /* libCocoaTouchToolbox.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				CD466F7E1735904E00BAA1CF /* Cocoa.framework */,
+				CD17102E1791F65D004C7C49 /* Foundation.framework */,
 				CD466F801735904E00BAA1CF /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -127,6 +179,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CD17102C1791F65D004C7C49 /* CocoaTouchToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1710391791F65D004C7C49 /* Build configuration list for PBXNativeTarget "CocoaTouchToolbox" */;
+			buildPhases = (
+				CD1710291791F65D004C7C49 /* Sources */,
+				CD17102A1791F65D004C7C49 /* Frameworks */,
+				CD17102B1791F65D004C7C49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaTouchToolbox;
+			productName = CocoaTouchToolbox;
+			productReference = CD17102D1791F65D004C7C49 /* libCocoaTouchToolbox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		CD466F7A1735904E00BAA1CF /* CocoaToolbox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD466F901735904E00BAA1CF /* Build configuration list for PBXNativeTarget "CocoaToolbox" */;
@@ -167,6 +236,7 @@
 			projectRoot = "";
 			targets = (
 				CD466F7A1735904E00BAA1CF /* CocoaToolbox */,
+				CD17102C1791F65D004C7C49 /* CocoaTouchToolbox */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +253,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CD1710291791F65D004C7C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD17103F1791F6C7004C7C49 /* CocoaToolbox.m in Sources */,
+				CD17103A1791F669004C7C49 /* NSString+JBTools.m in Sources */,
+				CD17103B1791F66B004C7C49 /* NSError+Logging.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD466F761735904E00BAA1CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +286,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CD1710371791F65D004C7C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/CocoaTouchToolbox.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouchToolbox/CocoaTouchToolbox-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD1710381791F65D004C7C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/CocoaTouchToolbox.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouchToolbox/CocoaTouchToolbox-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		CD466F8E1735904E00BAA1CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,6 +411,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CD1710391791F65D004C7C49 /* Build configuration list for PBXNativeTarget "CocoaTouchToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1710371791F65D004C7C49 /* Debug */,
+				CD1710381791F65D004C7C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CD466F751735904E00BAA1CF /* Build configuration list for PBXProject "CocoaToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
