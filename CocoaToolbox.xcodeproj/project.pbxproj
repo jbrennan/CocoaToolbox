@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		CD17102F1791F65D004C7C49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD17102E1791F65D004C7C49 /* Foundation.framework */; };
 		CD17103A1791F669004C7C49 /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
 		CD17103B1791F66B004C7C49 /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
@@ -14,12 +15,22 @@
 		CD17103D1791F696004C7C49 /* NSError+Logging.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; };
 		CD17103E1791F6C2004C7C49 /* CocoaToolbox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */; };
 		CD17103F1791F6C7004C7C49 /* CocoaToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */; };
+
+		CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */; };
+		CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */; };
+>>>>>>> 8c07e68580f7ea02346282aa5d067eaa7a639c2c
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
 		CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F941735909200BAA1CF /* NSString+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F951735909200BAA1CF /* NSString+JBTools.m */; };
+
 		CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
+
+		CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +49,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+
 		CD17102D1791F65D004C7C49 /* libCocoaTouchToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaTouchToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD17102E1791F65D004C7C49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD1710321791F65D004C7C49 /* CocoaTouchToolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaTouchToolbox-Prefix.pch"; sourceTree = "<group>"; };
+
+		CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Hierarchy.h"; sourceTree = "<group>"; };
+		CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Hierarchy.m"; sourceTree = "<group>"; };
+
 		CD466F7B1735904E00BAA1CF /* CocoaToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD466F7E1735904E00BAA1CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD466F811735904E00BAA1CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -53,8 +69,13 @@
 		CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaToolbox.m; sourceTree = "<group>"; };
 		CD466F941735909200BAA1CF /* NSString+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JBTools.h"; sourceTree = "<group>"; };
 		CD466F951735909200BAA1CF /* NSString+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JBTools.m"; sourceTree = "<group>"; };
+
 		CDD2129F17424DEA00F43BBE /* NSError+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Logging.h"; sourceTree = "<group>"; };
 		CDD212A017424DEA00F43BBE /* NSError+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Logging.m"; sourceTree = "<group>"; };
+
+		CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JBTools.h"; sourceTree = "<group>"; };
+		CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JBTools.m"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +179,15 @@
 			children = (
 				CD466F941735909200BAA1CF /* NSString+JBTools.h */,
 				CD466F951735909200BAA1CF /* NSString+JBTools.m */,
+
 				CDD2129F17424DEA00F43BBE /* NSError+Logging.h */,
 				CDD212A017424DEA00F43BBE /* NSError+Logging.m */,
+
+				CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */,
+				CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */,
+				CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */,
+				CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */,
+
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -171,8 +199,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */,
 				CD466F961735909200BAA1CF /* NSString+JBTools.h in Headers */,
+
 				CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */,
+
+				CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */,
+				CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +234,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD466F901735904E00BAA1CF /* Build configuration list for PBXNativeTarget "CocoaToolbox" */;
 			buildPhases = (
+				CD466F781735904E00BAA1CF /* Headers */,
 				CD466F761735904E00BAA1CF /* Sources */,
 				CD466F771735904E00BAA1CF /* Frameworks */,
-				CD466F781735904E00BAA1CF /* Headers */,
 				CD466F791735904E00BAA1CF /* Resources */,
 			);
 			buildRules = (
@@ -268,7 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */,
+
 				CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */,
+
+				CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */,
+				CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
