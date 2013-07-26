@@ -12,3 +12,4 @@
 #import "NSError+Logging.h"
 #import "NSArray+JBTools.h"
 #import "NSView+Hierarchy.h"
+#import "JBView.h"

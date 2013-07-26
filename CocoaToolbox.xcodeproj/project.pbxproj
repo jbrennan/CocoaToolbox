@@ -16,6 +16,8 @@
 		CD17103F1791F6C7004C7C49 /* CocoaToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */; };
 		CD1710401791F820004C7C49 /* NSArray+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */; };
 		CD1710411791F832004C7C49 /* NSArray+JBTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */; };
+		CD1710EA17A1FFC7004C7C49 /* JBView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1710E817A1FFC7004C7C49 /* JBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD1710EB17A1FFC7004C7C49 /* JBView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1710E917A1FFC7004C7C49 /* JBView.m */; };
 		CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */; };
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
@@ -49,6 +51,8 @@
 		CD17102D1791F65D004C7C49 /* libCocoaTouchToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaTouchToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD17102E1791F65D004C7C49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD1710321791F65D004C7C49 /* CocoaTouchToolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaTouchToolbox-Prefix.pch"; sourceTree = "<group>"; };
+		CD1710E817A1FFC7004C7C49 /* JBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBView.h; sourceTree = "<group>"; };
+		CD1710E917A1FFC7004C7C49 /* JBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBView.m; sourceTree = "<group>"; };
 		CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Hierarchy.h"; sourceTree = "<group>"; };
 		CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Hierarchy.m"; sourceTree = "<group>"; };
 		CD466F7B1735904E00BAA1CF /* CocoaToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CD1710E717A1FF74004C7C49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD1710E817A1FFC7004C7C49 /* JBView.h */,
+				CD1710E917A1FFC7004C7C49 /* JBView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CD466F711735904E00BAA1CF = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +160,7 @@
 		CD466F841735904E00BAA1CF /* CocoaToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				CD1710E717A1FF74004C7C49 /* Views */,
 				CD466F931735906000BAA1CF /* Categories */,
 				CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */,
 				CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */,
@@ -192,6 +206,7 @@
 				CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */,
 				CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */,
 				CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */,
+				CD1710EA17A1FFC7004C7C49 /* JBView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +306,7 @@
 				CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */,
 				CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */,
 				CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */,
+				CD1710EB17A1FFC7004C7C49 /* JBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
