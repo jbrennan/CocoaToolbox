@@ -16,7 +16,7 @@
 		CD17103F1791F6C7004C7C49 /* CocoaToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466F8C1735904E00BAA1CF /* CocoaToolbox.m */; };
 		CD1710401791F820004C7C49 /* NSArray+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */; };
 		CD1710411791F832004C7C49 /* NSArray+JBTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */; };
-		CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */; };
+		CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */; };
 		CD466F7F1735904E00BAA1CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD466F7E1735904E00BAA1CF /* Cocoa.framework */; };
 		CD466F891735904E00BAA1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD466F871735904E00BAA1CF /* InfoPlist.strings */; };
