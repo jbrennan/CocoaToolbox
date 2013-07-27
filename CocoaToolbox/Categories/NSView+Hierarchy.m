@@ -66,4 +66,17 @@
 }
 
 
+- (void)setCenterOfFrame:(CGPoint)point {
+	CGRect frame = [self frame];
+	CGPoint frameOrigin = CGPointMake(point.x - (CGRectGetWidth(frame) / 2.0), point.y - (CGRectGetHeight(frame) / 2.0));
+	[self setFrameOrigin:frameOrigin];
+}
+
+
+- (CGPoint)centerOfFrame {
+	CGRect frame = [self frame];
+	return CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame));
+}
+
+
 @end

@@ -9,6 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 @interface NSView (Hierarchy)
+
+
+/**
+ The center of the view's frame.
+*/
+@property CGPoint centerOfFrame;
+
 - (void)addSubviewResizingToFitBounds:(NSView *)subview;
 
 /**
