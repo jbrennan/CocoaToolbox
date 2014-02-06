@@ -27,6 +27,8 @@
 		CD466FA7173593D900BAA1CF /* CocoaToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */; };
+		CDA3369A18A3410A00E6AD51 /* NSColor+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA3369818A3410A00E6AD51 /* NSColor+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA3369B18A3410A00E6AD51 /* NSColor+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3369918A3410A00E6AD51 /* NSColor+JBTools.m */; };
 		CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		CD466F951735909200BAA1CF /* NSString+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JBTools.m"; sourceTree = "<group>"; };
 		CD466FAC17359D4900BAA1CF /* NSArray+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JBTools.h"; sourceTree = "<group>"; };
 		CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JBTools.m"; sourceTree = "<group>"; };
+		CDA3369818A3410A00E6AD51 /* NSColor+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+JBTools.h"; sourceTree = "<group>"; };
+		CDA3369918A3410A00E6AD51 /* NSColor+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+JBTools.m"; sourceTree = "<group>"; };
 		CDD2129F17424DEA00F43BBE /* NSError+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Logging.h"; sourceTree = "<group>"; };
 		CDD212A017424DEA00F43BBE /* NSError+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +194,8 @@
 				CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */,
 				CD383B7017696EBF0016C4E0 /* NSView+Hierarchy.h */,
 				CD383B7117696EBF0016C4E0 /* NSView+Hierarchy.m */,
+				CDA3369818A3410A00E6AD51 /* NSColor+JBTools.h */,
+				CDA3369918A3410A00E6AD51 /* NSColor+JBTools.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */,
 				CD466FAE17359D4900BAA1CF /* NSArray+JBTools.h in Headers */,
 				CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */,
+				CDA3369A18A3410A00E6AD51 /* NSColor+JBTools.h in Headers */,
 				CD1710EA17A1FFC7004C7C49 /* JBView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +311,7 @@
 			files = (
 				CD466F971735909200BAA1CF /* NSString+JBTools.m in Sources */,
 				CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */,
+				CDA3369B18A3410A00E6AD51 /* NSColor+JBTools.m in Sources */,
 				CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */,
 				CD383B7317696EBF0016C4E0 /* NSView+Hierarchy.m in Sources */,
 				CD1710EB17A1FFC7004C7C49 /* JBView.m in Sources */,

@@ -11,5 +11,6 @@
 #import "NSString+JBTools.h"
 #import "NSError+Logging.h"
 #import "NSArray+JBTools.h"
+#import "NSColor+JBTools.h"
 #import "NSView+Hierarchy.h"
 #import "JBView.h"
