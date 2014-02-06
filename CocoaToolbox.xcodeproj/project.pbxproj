@@ -29,6 +29,7 @@
 		CD466FAF17359D4900BAA1CF /* NSArray+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */; };
 		CDA3369A18A3410A00E6AD51 /* NSColor+JBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA3369818A3410A00E6AD51 /* NSColor+JBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDA3369B18A3410A00E6AD51 /* NSColor+JBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3369918A3410A00E6AD51 /* NSColor+JBTools.m */; };
+		CDA3369E18A3457600E6AD51 /* Easings.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA3369D18A3454B00E6AD51 /* Easings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDD212A117424DEA00F43BBE /* NSError+Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2129F17424DEA00F43BBE /* NSError+Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDD212A217424DEA00F43BBE /* NSError+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD212A017424DEA00F43BBE /* NSError+Logging.m */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		CD466FAD17359D4900BAA1CF /* NSArray+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JBTools.m"; sourceTree = "<group>"; };
 		CDA3369818A3410A00E6AD51 /* NSColor+JBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+JBTools.h"; sourceTree = "<group>"; };
 		CDA3369918A3410A00E6AD51 /* NSColor+JBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+JBTools.m"; sourceTree = "<group>"; };
+		CDA3369D18A3454B00E6AD51 /* Easings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Easings.h; sourceTree = "<group>"; };
 		CDD2129F17424DEA00F43BBE /* NSError+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Logging.h"; sourceTree = "<group>"; };
 		CDD212A017424DEA00F43BBE /* NSError+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +166,7 @@
 		CD466F841735904E00BAA1CF /* CocoaToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				CDA3369C18A3452900E6AD51 /* Utilities */,
 				CD1710E717A1FF74004C7C49 /* Views */,
 				CD466F931735906000BAA1CF /* Categories */,
 				CD466F8B1735904E00BAA1CF /* CocoaToolbox.h */,
@@ -200,6 +203,14 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		CDA3369C18A3452900E6AD51 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDA3369D18A3454B00E6AD51 /* Easings.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -214,6 +225,7 @@
 				CD383B7217696EBF0016C4E0 /* NSView+Hierarchy.h in Headers */,
 				CDA3369A18A3410A00E6AD51 /* NSColor+JBTools.h in Headers */,
 				CD1710EA17A1FFC7004C7C49 /* JBView.h in Headers */,
+				CDA3369E18A3457600E6AD51 /* Easings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

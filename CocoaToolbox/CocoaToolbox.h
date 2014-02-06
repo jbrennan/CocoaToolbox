@@ -14,3 +14,4 @@
 #import "NSColor+JBTools.h"
 #import "NSView+Hierarchy.h"
 #import "JBView.h"
+#import "Easings.h"
